@@ -17,12 +17,6 @@ var devServer = {
 	historyApiFallback: true,
 	hot: true,
 	inline: true,
-	// proxy: {
-	// 	'/api/*': {
-	// 		target: `http://127.0.0.1:${MOCK_CONF.port}`,
- 	// 		secure: false
-	// 	},
-	// }
 }
 // 本地服务
 config.devServer = devServer
