@@ -31,16 +31,18 @@ class App extends Component {
 					<a className="doc" href="https://github.com/fegos/fego-editer/blob/master/README.md">查看文档</a>
 				</header>
 				<div className="container" >
-					<Editor
+					<Editor style={{ height: '400px' }}
 						editorState={editorState}
 						onEditorStateChange={this.onEditorStateChange}
 						uploadUrl={""}
 						onContentStateChange={this.onEditorContentChange}
 					/>
-					<p>生成的HTML</p>
-					<div className="content" >
-						{content}
-					</div>
+					{
+						// <p>生成的HTML</p>
+						// <div className="content" >
+						// 	{content}
+						// </div>
+					}
 				</div>
 				<footer>
 					<p>©2018 fegoEditor.github.io</p>

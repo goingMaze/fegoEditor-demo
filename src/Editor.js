@@ -48,9 +48,9 @@ class Editor extends Component {
 			});
 		});
 	render() {
-		let { editorState, uploadUrl } = this.props;
+		let { editorState, uploadUrl, ...rest } = this.props;
 		return (
-			<FegoEditor
+			<FegoEditor {...rest}
 				editorState={editorState}
 				onChange={this.onChange}
 				toolBars={{
