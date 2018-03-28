@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import FegoEditor, { draftToHtml, htmlToDraft } from "fego-editor";
+import FegoEditor, { draftToHtml, htmlToDraft } from "./fegoEditor";
 import { EditorState } from "draft-js";
 
 class Editor extends Component {
