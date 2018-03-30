@@ -28,7 +28,10 @@ class App extends Component {
 				<header className="header" >
 					<h1 className="title" >FegoEditor</h1>
 					<h3 className="desc" >基于DraftJS开发的React富文本编辑器</h3>
-					<a className="doc" href="https://github.com/fegos/fego-editer/blob/master/README.md">查看文档</a>
+					<p>
+						<a className="doc" href="https://github.com/fegos/fego-editer/blob/master/README.md" target="_blank" style={{ marginRight: '20px' }} >查看文档</a>
+						<a className="doc" href="https://codesandbox.io/s/github/fegos/fego-editer/example" target="_blank" >尝试一下</a>
+					</p>
 				</header>
 				<div className="container" >
 					<Editor style={{ height: '400px' }}
