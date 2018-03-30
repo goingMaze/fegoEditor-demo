@@ -121,12 +121,10 @@ toolBars是一个对象类型，默认值为
 
 示例
 ```js
-<Editor toolBars=
-  {{ Color: [ 'cyan', 'red', 'orange' ], FontSize: [ 10, 20, 30, 40 ], FontFamily: [{
-      name: 'Araial',
-      family: 'Arial, Helvetica, sans-serif'
-    }]
-  }} 
+<Editor toolBars={ Color: [ 'cyan', 'red', 'orange' ], FontSize: [ 10, 20, 30, 40 ], FontFamily: [{
+    name: 'Araial',
+    family: 'Arial, Helvetica, sans-serif'
+  }]} 
 />
 ```
 
