@@ -25,7 +25,7 @@ class App extends Component {
 		let { editorState, content } = this.state;
 		return (
 			<div className="container" >
-				<Editor style={{ height: '400px' }}
+				<Editor style={{ height: '380px' }}
 					editorState={editorState}
 					onEditorStateChange={this.onEditorStateChange}
 					uploadUrl={""}
