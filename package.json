@@ -1,6 +1,5 @@
 {
 	"dependencies": {
-		"codemirror": "^5.36.0",
 		"cross-env": "^5.1.4",
 		"draft-convert": "^2.0.1",
 		"draft-js": "^0.10.4",
